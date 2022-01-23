@@ -79,10 +79,7 @@
                                         <div class="row"> 
                                         @if($list->status != 0)
                                          
-                                         <div class="col-6">
-                                           <a class="btn btn-warning btn-sm text-white"  
-                                            href="{{ url('admin/vacation_status_deactive', $list->id)}}">Disapprove</a>   
-                                          </div>
+                                        
                                           @else
                                           <div class="col-6">                 
                                            <a class="btn btn-success btn-sm text-white"
